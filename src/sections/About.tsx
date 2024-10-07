@@ -19,7 +19,11 @@ import MongoDb from "@/assets/icons/mongodb-svgrepo-com.svg";
 import mapImage from "@/assets/images/map.png";
 import smileMimoji from "@/assets/images/memoji-smile.png";
 import Postgres from "@/assets/icons/postgres.svg";
+import WebDesign from "@/assets/icons/webdesign.svg"
 import Figma from "@/assets/icons/figma.svg";
+import Framer from "@/assets/icons/framer.svg"
+import Wirefarme from "@/assets/icons/wireframe.svg" 
+import Research from "@/assets/icons/research.svg"
 import CardHeader from "@/components/CardHeader";
 import { ToolboxComponent } from "@/components/ToolboxComponent";
 import {motion} from "framer-motion";
@@ -28,60 +32,24 @@ import { image } from "framer-motion/client";
 
 const toolBoxItems = [
   {
-    title: "Javascript",
-    iconType: <JavascriptIcon />,
+    title: "Framer",
+    iconType: <Framer className="size-10"/>,
   },
   {
-    title: "HTML5",
-    iconType: <HTMLIcon className="size-10"/>,
+    title: "Wireframing",
+    iconType: <Wirefarme className="size-10"/>,
   },
   {
-    title: "CSS3",
-    iconType: <CssIcon className="size-10"/>,
-  },
-  {
-    title: "React",
-    iconType: <ReactIcon className="size-10"/>,
-  },
-  {
-    title: "Github",
-    iconType: <GithubIcon />,
-  },
-  {
-    title: "NodeJS",
-    iconType: <NodeJsIcon className="size-10" />,
-  },
-  {
-    title: "Express",
-    iconType: <ExpressIcon />,
-  },
-  {
-    title: "MongoDB",
-    iconType: <MongoDb className="size-10" />,
-  },
-  {
-    title: "Nextjs",
-    iconType: <Nextjs className="size-10" />,
-  },
-  {
-    title: "Tailwind Css",
-    iconType: <TailwindCss className="size-10" />,
-  },
-  {
-    title: "Docker",
-    iconType: <Docker className="size-10" />,
-  },
-  {
-    title: "Prisma",
-    iconType: <Prisma className="size-10" />,
-  },
-  {
-    title: "PostgresSQL",
-    iconType: <Postgres className="size-10" />,
+    title: "User Reserach",
+    iconType: <Research className="size-10"/>,
   },
   {
     title: "Figma",
     iconType: <Figma className="size-10" />,
+  },
+  {
+    title: "Web design",
+    iconType: <WebDesign className="size-10" />,
   },
 ];
 

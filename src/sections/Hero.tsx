@@ -72,11 +72,10 @@ export const HeroSection = () => {
       </div>
       <div className="max-w-lg mx-auto">
         <h1 className="font-serif text-3xl text-center mt-8 tracking-wide md:text-5xl">
-         Harsh Singh - Fullstack Developer
+         Harsh Singh - UI/UX designer
         </h1>
         <p className="mt-4 text-center text-white/62 md:text-lg">
-          I sepacilized in transforming designs into functional, high performing
-          web applications. Let&apos;s Discuss next project.
+          I sepecilized in making design and animation. Let&apos;s Discuss next project.
         </p>
         <div className="container relative z-20">
         <div className="flex flex-col items-center mt-8 gap-4 justify-center md:flex-row">
@@ -86,12 +85,12 @@ export const HeroSection = () => {
                 <ArrowDown className="size-4" />
             </a>
           </button>
-          <button className="inline-flex items-center gap-2 border-white bg-white text-gray-900 h-12 px-6 rounded-xl">
+          {/* <button className="inline-flex items-center gap-2 border-white bg-white text-gray-900 h-12 px-6 rounded-xl">
             <a href="https://drive.google.com/file/d/1Pyz3oDXo645bvbfIJ3rL6pawBDUUl9_W/view?usp=drive_link" className="inline-flex items-center gap-2" target="_blank">
               <span className="font-semibold"><Image src={Resume} alt="Resume" height={15} width={15}/></span>
               <span>View Resume</span>
             </a>
-          </button>
+          </button> */}
         </div>
         </div>
       </div>

@@ -3,6 +3,7 @@ import darkSaasLandingPage from "@/assets/images/dark-saas-landing-page.png";
 import lightSaasLandingPage from "@/assets/images/light-saas-landing-page.png";
 import aiStartupLandingPage from "@/assets/images/ai-startup-landing-page.png";
 import docwise from "@/assets/images/docwise.png";
+import Homepage from "@/assets/images/home screen.png"
 import lms from "@/assets/images/lms.png";
 import productify from "@/assets/images/productify.png";
 import Image from "next/image";
@@ -10,50 +11,50 @@ import CheckCircleIcon from "@/assets/icons/check-circle.svg";
 import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
 import grainImage from "@/assets/images/grain.jpg";
 import Github from "@/assets/icons/github.svg"
+import Jordan from "@/assets/images/Jordan.png"
+import Console from "@/assets/images/console.jpg";
 import { SectionHeader } from "@/components/SectionHeader";
 import { Card } from "@/components/Card";
 
 const portfolioProjects = [
   {
-    company: "Document Editor",
+    company: "Product Landing page",
     year: "2024",
-    title: "Docwise",
+    title: "Jordan UI",
     results: [
-      { title: "Developed rich document editor" },
-      { title: "Utilized Convex for real-time backend" },
-      { title: "Optimized performance with Next.js" },
+      { title: "Sleek and modern shoe product websites" },
+      { title: "Engage proper with the user Empathy" },
+      { title: "Uses of proper typography and colors" },
     ],
-    link: "docwise.vercel.app",
-    github:"github.com/harsh-singh-repository/docwise",
-    image: docwise,
+    // github:"github.com/harsh-singh-repository/productivity",
+    link:"https://dribbble.com/shots/24990071-Sneakers-Home-page?utm_source=Clipboard_Shot&utm_campaign=harshwebartisty&utm_content=Sneakers%20Home%20page&utm_medium=Social_Share",
+    image: Jordan,
   },
   {
-    company: "Task Management",
-    year: "2024",
-    title: "Productify",
-    results: [
-      { title: "Created task boards with cards and lists" },
-      { title: "Added drag-and-drop functionality" },
-      { title: "Used Prisma with Supabase PostgreSQL" },
-      { title: "Added paid tier for >5 boards" },
-    ],
-    link: "productivify.vercel.app",
-    github:"github.com/harsh-singh-repository/productivity",
-    image: productify,
-  },
-  {
-    company: "Learning Management System",
+    company: "UI Design",
     year: "2023",
-    title: "Course Bundler",
+    title: "Gaming Console",
     results: [
-      { title: "Built LMS for course creation." },
-      { title: "Implemented video upload and playback" },
-      { title: "Secured users with JWT verification" },
-      { title: "Integrated Razorpay for payments" },
+      { title: "Hero section with dynamic visuals" },
+      { title: "Highlighted key features." },
+      { title: "Optimized for responsive display."},
     ],
-    link: "",
-    github:"github.com/harsh-singh-repository/Learning-management-system",
-    image: lms,
+    link: "https://dribbble.com/shots/24990105-Gaming-Console-UI-design?utm_source=Clipboard_Shot&utm_campaign=harshwebartisty&utm_content=Gaming%20Console%20UI%20design&utm_medium=Social_Share",
+    // github:"github.com/harsh-singh-repository/docwise",
+    image: Console,
+  },
+  {
+    company: "Web Design",
+    year: "2024",
+    title: "Creta Classes",
+    results: [
+      { title: "Designed a kid-friendly educational website page" },
+      { title: "Conducted user research for intuitive navigation" },
+      { title: "Created a playful layout with interactive elements" },
+    ],
+    link: "https://dribbble.com/shots/24990086-Ed-tech-website-UI-Design?utm_source=Clipboard_Shot&utm_campaign=harshwebartisty&utm_content=Ed%20tech%20website%20UI%20Design&utm_medium=Social_Share",
+    // github:"github.com/harsh-singh-repository/Learning-management-system",
+    image: Homepage,
   },
 ];
 
@@ -106,15 +107,15 @@ export const ProjectsSection = () => {
                   <div className="flex items-center gap-2">
                     <a href={`//${project.link}`} target="_blank">
                       <button className="bg-white text-gray-950 h-12 w-full rounded-xl font-semibold inline-flex items-center justify-center gap-2 mt-8 md:w-auto px-6">
-                        <span>View Live Site</span>
+                        <span>Visit Design</span>
                         <ArrowUpRightIcon className="size-4" />
                       </button>
                     </a>
-                    <a href={`//${project.github}`} target="_blank">
+                    {/* <a href={`//${project.github}`} target="_blank">
                       <button className="mt-[2.5rem]">
                           <Github className="size-20" />
                       </button>
-                    </a>
+                    </a> */}
                   </div>
                 </div>
                 <div className="relative">
